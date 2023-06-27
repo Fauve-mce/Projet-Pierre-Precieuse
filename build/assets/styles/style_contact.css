@@ -1,0 +1,15 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+main{
+    display:grid;
+    align-items: center;
+}
+
+.titrecontact h2{
+    border-bottom:none;
+    margin-bottom: 20px;
+}

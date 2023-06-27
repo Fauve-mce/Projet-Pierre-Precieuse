@@ -1,0 +1,368 @@
+@charset "UTF-8";
+/* ### Variable ### */
+/* - Couleur*/
+/*### général ###*/
+body {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 20rem auto 5rem;
+}
+
+/*### header ###*/
+header {
+  display: flex;
+  height: 20rem;
+  background-color: #fdfdfd;
+}
+
+#container {
+  width: 100%;
+}
+
+.header-1 {
+  height: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.header-2 {
+  background-color: #4c226e;
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+}
+.header-2 nav {
+  display: flex;
+  align-items: end;
+}
+.header-2 nav ul {
+  display: flex;
+  flex-direction: row;
+  margin-left: 120px;
+}
+.header-2 nav ul li a {
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin: 20px;
+  transition: color 1s;
+  display: flex;
+}
+
+.box-search {
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.box-search form {
+  display: flex;
+  margin-right: 20%;
+}
+.box-search form .search {
+  width: 250px;
+  height: 20px;
+  color: #000;
+  border: 1px solid #bcbcbc;
+  border-radius: 10px 0px 0px 10px;
+  outline: none;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-right: 1px solid #bcbcbc;
+}
+.box-search form .button-search {
+  width: 30%;
+  height: 52px;
+  border: 1px solid #bcbcbc;
+  border-radius: 0px 10px 10px 0px;
+  border-left: 1px solid #bcbcbc;
+}
+
+img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.box-user {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.box-user .user-info {
+  width: 15%;
+  height: 40px;
+  margin-left: 75%;
+  background-color: #fff;
+  border: 1px solid #bcbcbc;
+  display: flex;
+}
+.box-user .login {
+  text-decoration: none;
+  text-align: center;
+}
+.box-user .shopping-card {
+  width: 250px;
+  height: 20px;
+  color: #000;
+  border: 1px solid #bcbcbc;
+  border-radius: 10px 10px 10px 10px;
+  outline: none;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-right: 1px solid #bcbcbc;
+}
+.box-user .shopping-card .panier {
+  margin-left: 5px;
+}
+.box-user .shopping-card img {
+  margin-left: 100px;
+}
+
+/*### main ###*/
+h1 {
+  font-size: 3rem;
+  margin-top: 60px;
+  margin-left: 43%;
+}
+
+p {
+  margin-top: 50px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 40px;
+  font-size: 1.7rem;
+}
+
+.gallery {
+  margin: 20px auto 0;
+  padding-bottom: 20px;
+  max-width: 1600px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 700px);
+  grid-gap: 20px;
+  justify-content: center;
+}
+
+.item {
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  min-height: 800px;
+  padding: 10px;
+  border-radius: 5%;
+  box-shadow: 0px 0px 10px 0px #666;
+}
+
+.titre {
+  width: 600px;
+  height: 50px;
+}
+
+h2 {
+  display: flex;
+  font-size: 2rem;
+  align-items: center;
+  justify-content: center;
+  border-bottom: solid 1px #6b5538;
+}
+
+.sous_grid {
+  height: 550px;
+  display: grid;
+  grid-template-columns: 0rem 19.5rem 19rem;
+  grid-template-rows: 0rem 17rem 17rem;
+}
+
+.bracelet-tigre {
+  height: 250px;
+  margin-left: 35px;
+}
+
+.bracelet-shattuckite {
+  height: 250px;
+  margin-left: 55px;
+}
+
+.pierre-tigre {
+  height: 250px;
+  margin-left: 350px;
+}
+
+.bouteille-amethyste {
+  height: 250px;
+  margin-left: 420px;
+}
+
+.pendule-tigre {
+  height: 250px;
+  margin-top: 300px;
+  margin-left: -280px;
+}
+
+.pendentif-tigre {
+  height: 250px;
+  margin-top: 300px;
+  margin-left: 360px;
+}
+
+.desc {
+  background-color: rgb(182, 150, 110);
+}
+
+.prix {
+  background-color: rgb(182, 150, 110);
+}
+
+h4 {
+  color: #000;
+  font-size: x-large;
+}
+
+.button-55 {
+  width: 100px;
+  margin-top: 700px;
+  margin-left: 260px;
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: 0.75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-55:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.button-55:focus {
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 4px -6px;
+}
+
+table {
+  height: 200px;
+  width: 610px;
+}
+
+table, td, th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 0.2em;
+}
+
+th {
+  background-color: black;
+  color: snow;
+}
+
+/*### footer ###*/
+footer {
+  background-color: rgb(134, 61, 122);
+}
+
+.contact-in {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 10px 0px #666;
+}
+
+.contact-map {
+  width: 100%;
+  height: auto;
+  flex: 50%;
+}
+
+.contact-map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.contact-form {
+  width: 100%;
+  height: auto;
+  flex: 50%;
+  padding: 30px;
+  text-align: center;
+}
+
+.contact-form h1 {
+  margin-bottom: 40px;
+}
+
+.contact-form-txt {
+  width: 100%;
+  height: 40px;
+  flex: 50%;
+  color: #000;
+  border: 1px solid #bcbcbc;
+  border-radius: 50px;
+  outline: none;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.contact-form-txt::placeholder {
+  color: #aaa;
+}
+
+.contact-form-textarea {
+  width: 100%;
+  height: 130px;
+  color: #000;
+  border: 1px solid #bcbcbc;
+  border-radius: 20px;
+  outline: none;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+
+.contact-form-textarea::placeholder {
+  color: #aaa;
+}
+
+.contact-form-btn {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  background: #b4b62b;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 0;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=style.css.map */
